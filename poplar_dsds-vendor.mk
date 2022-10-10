@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/poplar_dsds/proprietary/etc/firmware/tzsuntory.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.mdt \
     vendor/sony/poplar_dsds/proprietary/etc/firmware/tztpm.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b01 \
     vendor/sony/poplar_dsds/proprietary/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.mdt \
+    vendor/sony/poplar_dsds/proprietary/etc/permissions/com.sony.device.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sony.device.xml \
     vendor/sony/poplar_dsds/proprietary/etc/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin \
     vendor/sony/poplar_dsds/proprietary/etc/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin \
     vendor/sony/poplar_dsds/proprietary/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_cci_system.so \
@@ -70,6 +71,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/poplar_dsds/proprietary/lib64/libsensor_test.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_test.so \
     vendor/sony/poplar_dsds/proprietary/vendor/sony/touch/images/big_touch.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/big_touch.png \
     vendor/sony/poplar_dsds/proprietary/vendor/sony/touch/images/splash.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/splash.png
+
+PRODUCT_PACKAGES += \
+    com.sony.device
 PRODUCT_COPY_FILES += \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/sony/poplar_dsds/proprietary/vendor/bin/charge_service:$(TARGET_COPY_OUT_VENDOR)/bin/charge_service \

@@ -5,6 +5,12 @@
 soong_namespace {
 }
 
+dex_import {
+	name: "com.sony.device",
+	owner: "sony",
+	jars: ["proprietary/framework/com.sony.device.jar"],
+}
+
 android_app_import {
 	name: "TimeService",
 	owner: "sony",
